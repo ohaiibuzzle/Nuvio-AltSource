@@ -1,0 +1,34 @@
+name: Update AltStore source
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-source
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate apps.json
+        run: python3 scripts/update_source.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- apps.json; then
+            echo "apps.json unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps.json
+          git commit -m "chore: update to latest Nuvio release"
+          git push

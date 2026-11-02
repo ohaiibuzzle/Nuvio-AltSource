@@ -1,0 +1,27 @@
+{
+  "name": "Nuvio",
+  "identifier": "com.ohaiibuzzle.nuvio",
+  "subtitle": "Latest Nuvio Mobile build",
+  "description": "Automatically tracks the newest iOS IPA published on github.com/NuvioMedia/NuvioMobile.",
+  "sourceURL": "https://raw.githubusercontent.com/ohaiibuzzle/Nuvio-AltSource/main/apps.json",
+  "apps": [
+    {
+      "name": "Nuvio",
+      "bundleIdentifier": "com.nuvio.media",
+      "developerName": "Nuvio",
+      "subtitle": "Media streaming client",
+      "localizedDescription": "Latest Nuvio build (0.6.6), pulled automatically from the official GitHub releases.",
+      "iconURL": "https://raw.githubusercontent.com/ohaiibuzzle/Nuvio-AltSource/main/icon.png",
+      "tintColor": "#5B4BFF",
+      "versions": [
+        {
+          "version": "0.6.6",
+          "date": "2026-10-31T02:59:46Z",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.6-beta/nuvio-0.6.6-full-release.ipa",
+          "size": 68521101,
+          "minOSVersion": "16.1"
+        }
+      ]
+    }
+  ]
+}
