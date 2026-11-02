@@ -1,7 +1,7 @@
 {
   "name": "Nuvio",
   "identifier": "com.ohaiibuzzle.nuvio",
-  "subtitle": "Latest Nuvio Mobile build",
+  "subtitle": "Nuvio Mobile unofficial AltSource (not affiliated)",
   "description": "Automatically tracks the newest iOS IPA published on github.com/NuvioMedia/NuvioMobile.",
   "sourceURL": "https://raw.githubusercontent.com/ohaiibuzzle/Nuvio-AltSource/main/apps.json",
   "apps": [
