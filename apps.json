@@ -10,15 +10,15 @@
       "bundleIdentifier": "com.nuvio.media",
       "developerName": "Nuvio",
       "subtitle": "Media streaming client",
-      "localizedDescription": "Latest Nuvio build (0.6.8), pulled automatically from the official GitHub releases.",
+      "localizedDescription": "Latest Nuvio build (0.6.9), pulled automatically from the official GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/ohaiibuzzle/Nuvio-AltSource/main/icon.png",
       "tintColor": "#5B4BFF",
       "versions": [
         {
-          "version": "0.6.8",
-          "date": "2026-11-05T18:26:56Z",
-          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.8-beta/nuvio-0.6.8-full-release.ipa",
-          "size": 68872061,
+          "version": "0.6.9",
+          "date": "2026-11-06T21:19:10Z",
+          "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.6.9-beta/nuvio-0.6.9-full-release.ipa",
+          "size": 69322992,
           "minOSVersion": "16.1"
         }
       ]
